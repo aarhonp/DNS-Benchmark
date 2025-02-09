@@ -15,10 +15,11 @@ This PowerShell script allows you to benchmark multiple DNS servers to check the
 
 ## Usage
 
-1. Clone the repository or download the script.
-2. Open PowerShell and run the script.
-3. The script will run DNS benchmarks for selected DNS servers and domains.
-4. A result HTML file will be generated and automatically opened in your default browser.
+1. Copy/paste in PowerShell
+2. Clone the repository or download the script.
+3. Open PowerShell and run the script.
+4. The script will run DNS benchmarks for selected DNS servers and domains.
+5. A result HTML file will be generated and automatically opened in your default browser.
 
 ## License
 
