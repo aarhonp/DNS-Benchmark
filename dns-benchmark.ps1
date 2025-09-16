@@ -2,8 +2,8 @@
 # Tests multiple DNS servers for latency and packet loss, then generates an HTML report.
 
 # Define DNS servers and domains
-$dnsServers = @("8.8.8.8", "8.8.4.4", "1.1.1.1", "1.0.0.1", "9.9.9.9", "208.67.222.222")
-$domains = @("google.com", "yahoo.com", "microsoft.com")
+$dnsServers = @("one.one.one.one", "dns.google", "dns.quad9.net")
+$domains = @("microsoft.com", "google.com", "cloudflare.com", "github.com", "stackoverflow.com")
 
 # Initialize an empty array to hold the results
 $results = @()
